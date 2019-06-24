@@ -17,7 +17,7 @@
 USERNAME="hzl201"
 
 # The transmission remote login password
-PASSWORD="hzl63155680"
+PASSWORD="123456"
 
 # The transmission download dir
 DLDIR="/home/box123/downloads"
@@ -48,6 +48,6 @@ dist_check
 
 if [ "$DISK_OVER" = "1" ];then
     printf "transmission on speed\n"
-	 /usr/bin/transmission-remote -n hzl201:hzl63155680  -t all -as
+	 /usr/bin/transmission-remote -n hzl201:123456  -t all -as
 fi
     printf "transmission off speed\n"
